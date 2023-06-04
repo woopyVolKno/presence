@@ -1,0 +1,22 @@
+.jumbotron {
+  padding-top: 10rem;
+  background-color: #f0ede4;
+}
+section {
+  padding-top: 5rem;
+  .jumbotron {
+    padding-top: 10rem;
+    background-color: #d6cec9;
+  }
+}
+section {
+  padding-top: 5rem;
+}
+section#Présence {
+  padding-bottom: 5rem;
+  margin-bottom: 3rem;
+}
+
+footer {
+  margin-top: 3rem;
+}

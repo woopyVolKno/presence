@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="rtl" dir="ar">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.rtl.min.css" integrity="sha384-WJUUqfoMmnfkBLne5uxXj+na/c7sesSJ32gI7GfCk4zO4GthUKhSEGyvQ839BC51" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+
+    <!-- SweetAlert CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.min.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Présence</title>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #867f7a">
+      <div class="container">
+        <a class="navbar-brand" href="#">Présence</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Présence">Présence</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <img src="img/Absensi Online.jpg" alt="Présence" width="300" class="rounded-circle img-thumbnail mb-3" />
+            <h1 class="display-4 mb-3">PRÉSENCE</h1>
+          </div>
+          <div class="col-md-12 d-flex justify-content-center">
+            <a href="https://instagram.com/aeaacel?igshid=MzNlNGNkZWQ4Mg==" class="mx-2">
+              <img src="img/8642361_ic_social_media_instagram_icon.png" alt="" width="40" class="rounded" />
+            </a>
+            <a href="https://wa.me/6282133439567" class="mx-2">
+              <img src="img/853339_whatsapp_icon.png" alt="" width="40" class="rounded" />
+            </a>
+            <a href="https://twitter.com/hyunsukieeeeez?t=BUipoi0FxLjNJOX3CFwjUw&s=08" class="mx-2">
+              <img src="img/853364_twitter_icon.png" alt="" width="40" class="rounded" />
+            </a>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5">
+          <div class="col-md-8">
+            <div class="text-body mt-3">
+              <p class="text mb-3">
+                Presence adalah website absensi yang kami buat untuk memudahkan para pengunanya untuk mengisi absen secara online, sehingga pengguna akan dimudahkan untuk melakukan absensi. Website ini merupakan website yang digunakan untuk
+                memudahkan proses pencatatan kehadiran seseorang bagi warga sekolah dan perkantoran.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,224L34.3,208C68.6,192,137,160,206,165.3C274.3,171,343,213,411,240C480,267,549,277,617,282.7C685.7,288,754,288,823,261.3C891.4,235,960,181,1029,165.3C1097.1,149,1166,171,1234,176C1302.9,181,1371,171,1406,165.3L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Jumbotron -->>
+
+    <!-- Présence -->
+    <section id="Présence">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Présence</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-9">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputGuruMurid" class="form-label">Pilih</label>
+                <div class="input-group">
+                  <div class="input-group-text">
+                    <input class="form-check-input mt-0" type="radio" name="pilih" value="Guru" aria-label="Radio button for following text input" />
+                  </div>
+                  <input type="text" class="form-control" aria-label="Text input with radio button" placeholder="Guru" style="background-color: #fff" disabled />
+                </div>
+                <div class="input-group">
+                  <div class="input-group-text">
+                    <input class="form-check-input mt-0" type="radio" name="pilih" value="Murid" aria-label="Radio button for following text input" />
+                  </div>
+                  <input type="text" class="form-control" aria-label="Text input with radio button" placeholder="Murid" style="background-color: #fff" disabled />
+                </div>
+                <label for="inputNISNIP" class="form-label">NIS/NIP</label>
+                <input type="text" class="form-control" id="inputNISNIP" placeholder="NIS/NIP" />
+                <div class="col-md-12 mt-3">
+                  <button id="tombol" class="btn" style="background-color: #867f7a; color: #fff" type="button">Kirim</button>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="col-md-12">
+                  <label for="inputTanggal" class="form-label">Tanggal</label>
+                  <input type="text" class="form-control" id="tanggal" style="background-color: #fff" />
+                  <script>
+                    var tanggalInput = document.getElementById("tanggal");
+                    var tanggalSekarang = new Date();
+                    var tanggalFormat = tanggalSekarang.toISOString().split("T")[0];
+                    tanggalInput.value = tanggalFormat;
+                    tanggalInput.setAttribute("disabled", "true");
+                  </script>
+                </div>
+                <div class="col-md-12">
+                  <label for="inputState" class="form-label">Pilih</label>
+                  <div class="input-group">
+                    <div class="input-group-text">
+                      <input class="form-check-input mt-0" type="radio" name="status" value="Hadir" aria-label="Radio button for following text input" />
+                    </div>
+                    <input type="text" class="form-control" aria-label="Text input with radio button" placeholder="Hadir" style="background-color: #fff" disabled />
+                  </div>
+                  <div class="input-group">
+                    <div class="input-group-text">
+                      <input class="form-check-input mt-0" type="radio" name="status" value="Sakit" aria-label="Radio button for following text input" />
+                    </div>
+                    <input type="text" class="form-control" aria-label="Text input with radio button" placeholder="Sakit" style="background-color: #fff" disabled />
+                  </div>
+                  <div class="input-group">
+                    <div class="input-group-text">
+                      <input class="form-check-input mt-0" type="radio" name="status" value="Izin" aria-label="Radio button for following text input" />
+                    </div>
+                    <input type="text" class="form-control" aria-label="Text input with radio button" placeholder="Izin" style="background-color: #fff" disabled />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 40">
+            <path
+              fill="#fff"
+              fill-opacity="1"
+              d="M0,224L34.3,208C68.6,192,137,160,206,165.3C274.3,171,343,213,411,240C480,267,549,277,617,282.7C685.7,288,754,288,823,261.3C891.4,235,960,181,1029,165.3C1097.1,149,1166,171,1234,176C1302.9,181,1371,171,1406,165.3L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Présence -->
+
+    <!-- SweetAlert2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.4/dist/sweetalert2.min.js"></script>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-4F0x3qGvYtY52fVLb5klKXfIdK7RB/6xWK6WxqO3MXznBa9IcMnOfO2G3iBCpAzZ" crossorigin="anonymous"></script>
+
+    <!-- My JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
